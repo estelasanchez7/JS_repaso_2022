@@ -15,5 +15,10 @@
     }
 */
 
+let numbers = [14,51,27,83,64,95]
 
+for(let i=0;i<numbers.length;i++){
+    console.log(`i vale ${i} y el valor de esa posicion en el array es ${numbers[i]}`)
+}
 
+//*NOTA: cuando ponemos.length nunca pondremos <=, ya que nos dará en la última posicion undefined.
