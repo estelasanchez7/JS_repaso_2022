@@ -54,7 +54,14 @@ newElement.textContent = "I'm a new element"
         child.replaceWith(newChild)
 */
 
-list.children[0].before(newElement)
+//list.children[0].before(newElement)
+//list.prepend(newElement)
+//list.append(newElement)
+//list.after(newElement)
+//list.children[1].after(newElement)
+
+//list.children[0].replaceWith(newElement)
+//document.querySelector('#child-to-replace').replaceWith(newElement)
 
 
 /*
@@ -64,3 +71,7 @@ list.children[0].before(newElement)
         element.removeChild(child) - Elimina el nodo hijo del DOM
 */
 
+//list.after(list.cloneNode(false))
+
+//list.remove()
+list.removeChild(list.children[0])
