@@ -23,7 +23,7 @@ const button = document.querySelector('#button')
 //res =  response = respuesta
 button.onclick=()=>{
     fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res=>res.ok ? Promise.resolve(res) : Promise.reject(res ))
+    .then(res=>res.ok ? Promise.resolve(res) : Promise.reject(res))
         .then(res=>res.json())
         .then(res=>{
             const list = document.querySelector('#list')
