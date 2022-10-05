@@ -39,7 +39,7 @@
         -* Asterisco: Lo que está antes del asterisco puede estar, puede no estar y se puede repetir.  .*@.*\..*
         -? Interrogación: Lo que está antes de la interrogación puede no estar, pero si está solo puede aparecer una vez.
             ^[ae]?$ 
-        - Operador +: lo que está antes del + tiene que estár una vez como mínimo
+        - + Operador+: lo que está antes del + tiene que estár una vez como mínimo
         A-[0-9]+
     
     Caracteres:
@@ -48,7 +48,7 @@
         \d: Coincide con un carácter de número. Equivalente a [0-9] ^\d{5}$
         \D: Coincide con cualquier carácter no numérico. Equivalente a [^0-9] ^\D{5}$
         \w: Coincide con cualquier carácter alfanumérico, incluyendo el guión bajo. Equivalente a [A-Za-z0-9_] ^\w+@$
-        \W: Coincide con todo menos caracteres de palabra. ^\W+$
+        \W: Coincide con todo menos caracteres de palabra.(no letras, ni números, ni barra baja, todo el resto de símbolos sí) ^\W+$
        
 */
 
