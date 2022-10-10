@@ -17,3 +17,6 @@ dropZone.addEventListener('drop', (e) => {
     console.log(fileInput.files)
 })
 
+fileInput.addEventListener('change',(e)=> {
+    console.log(fileInput.files)
+})
